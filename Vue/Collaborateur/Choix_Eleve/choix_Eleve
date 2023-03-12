@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Liste des évaluations
+  </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../Entete.css" type="text/css">
+  <link rel="stylesheet" href="choix_Eleve.css" type="text/css">
+  <script src="../../../Controleur/Collaborateur/Choix_Eleve/choix_Eleve.js">
+  </script>
+</head>
+
+<header>
+  <table id="haut">
+    <tr>
+        <td id="hautd">
+          <button value="Menu" onclick=>Menu</button>
+        </td>
+
+        <td id="hautd">
+          <img src="../../../Image/Logo_TV_2015.png" alt="">    <!-- A modifier pour mettre le logo voulue -->
+        </td>
+
+        <td id="hautd">
+          <p id="info">Pseudonyme</p>
+          <p id="info">Collaborateur</p>
+        </td>
+    </tr>
+</table>
+</header>
+
+
+<body>
+  <h2>Que souhaitez vous faire?</h2>
+
+  <table  id="table_choix">
+    <tr>
+        <td id="idTable">
+            <button id="choix" onclick="note()">Note</button>
+        </td>
+    </tr>
+    <tr>
+        <td id="idTable">
+            <button id="choix">Test</button>
+        </td>
+
+    </tr>
+  </table>
+
+
+</body>
+
+</html>

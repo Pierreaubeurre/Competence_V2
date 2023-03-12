@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Liste des notes
+  </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../Entete.css" type="text/css">
+  <link rel="stylesheet" href="note.css" type="text/css" defer>
+  <script type="text/javascript" src="../../Controleur/Note/note.js"></script>
+  <script type="text/javascript" src="../../../Controleur/menu.js"></script>
+</head>
+
+<body>
+
+<header>
+  <table id="haut">
+    <tr>
+        <td id="hautd">
+          <button value="Menu" onclick="menu()">Menu</button>
+        </td>
+
+        <td id="hautd">
+          <img src="../../../Image/Logo_TV_2015.png" alt="">    <!-- A modifier pour mettre le logo voulue -->
+        </td>
+
+        <td id="hautd">
+          <p id="info">Pseudonyme</p>
+          <p id="info">Rôle</p>
+        </td>
+    </tr>
+</table>
+</header>
+
+  <h2>Liste des notes</h2>
+
+  <table id="tableau">
+    <tr>
+      <th id="htable"> 
+        <button onclick="nouv()">+</button>  
+        Nouvelle évaluation
+      </th>
+      <th id="htable">Trier par :
+        <select name="Ordre">
+          <option value="">Ordre alphabétique</option>
+          <option value="">Ordre inverse de l'alphabet</option>
+          <option value="">Ordre croissant</option>
+          <option value="">Ordre décroissant</option>
+      </select>
+    </th>
+      <th id="htable" colspan="2">Rechercher :
+          <input type="text">
+
+      </th>
+    </tr>
+
+    <tr>
+      <th scope="col">Elève</th>
+      <th scope="col">Evaluation</th>
+      <th scope="col">Note</th>
+  </tr>
+
+  <!-- Début de la partie du tableau à modifier -->
+
+
+    
+
+  <!-- Fin de la partie-->
+
+  </table> 
+
+
+
+
+</body>
+
+</html>

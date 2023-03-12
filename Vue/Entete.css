@@ -1,0 +1,42 @@
+header{
+    background-color: #33b8ff  ;
+}
+
+button[value="Menu"]{
+    background-color: gray;
+    font-size: xx-large;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+  }
+
+#haut{
+    width: 100%;
+  }
+  
+  #hautd{
+    width: 33%;
+    padding: 1%;
+  }
+  
+  img{
+    width: 150px;
+    border: 1px solid black;
+    display: block;
+    margin : auto;
+  
+  }
+
+  #info{
+    font-size: large;
+    text-align: right;
+  }
+
+  h2{
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+  }

@@ -1,0 +1,40 @@
+
+#tableau{
+  border: 1px solid black;
+}
+
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+
+th{
+  text-align: center; 
+  background-color:darkslategrey;
+  font-size:xx-large;
+}
+
+#htable{
+  background-color: gray;
+  font-size: large;
+}
+
+
+#eval{
+  text-align: center; 
+  width: 33%;
+  font-size: xx-large;
+  border: 1px solid black;
+}
+
+input[type="button"]{
+  font-size: large;
+  width: 33%;
+  background-color: gray;
+  display: block;
+  margin : auto;
+}
+

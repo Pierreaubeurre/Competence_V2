@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Création d'une évaluation
+  </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../Entete.css" type="text/css">
+  <link rel="stylesheet" href="Nouv_evaluation.css" type="text/css">
+  <script type="text/javascript" src="../../../Controleur/Rh/Nouv_evaluation/Nouv_evaluation.js" defer></script>
+  <script type="text/javascript" src="../../../Controleur/menu.js"></script>
+</head>
+
+<body>
+
+<header>
+  <table id="haut">
+    <tr>
+        <td id="hautd">
+          <button value="Menu" onclick="menu()">Menu</button>
+        </td>
+
+        <td id="hautd">
+          <img src="../../../Image/Logo_TV_2015.png" alt="">    <!-- A modifier pour mettre le logo voulue -->
+        </td>
+
+        <td id="hautd">
+          <p id="info">Pseudonyme</p>
+          <p id="info">RH</p>
+        </td>
+    </tr>
+</table>
+</header>
+
+  <h2>Création d'une évaluation</h2>
+
+  <table id="tableau">
+    <tr>
+      <th id="htable"> <button onclick="critere()">+</button>  
+        Nouveau critère</th>
+      <th id="htable">
+
+        <input type="text" placeholder="Nom de l'évaluation" id="nom_eval">
+
+    </th>
+      <th id="htable">Rechercher :
+          <input type="text">
+
+      </th>
+    </tr>
+
+    <tr>
+      <th scope="col">Nom</th>
+      <th scope="col">Note maximale</th>
+      <th scope="col">Compétence</th>
+  </tr>
+
+  <!-- Début de la partie du tableau à modifier -->
+
+
+    
+
+  <!-- Fin de la partie-->
+
+  </table> 
+
+  <button onclick="confirmer()">Confirmer</button>
+
+
+</body>
+
+</html>

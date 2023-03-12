@@ -1,0 +1,35 @@
+h2{
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+#table_choix{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+input,label,button{
+    font-size: xx-large;
+    width: 33%;
+    
+    display: block;
+    margin : auto;
+
+    padding: 1%;
+}
+
+input{
+    background-color: gray;
+
+}
+
+label{
+    text-align: center;
+}
+
+#idTable{
+    height: 150px;
+}
